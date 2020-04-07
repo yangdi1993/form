@@ -1,0 +1,26 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: left;
+}
+.ar-App {
+  direction: rtl;
+  unicode-bidi: isolate
+}
+.form-head{
+  text-align: center;
+  padding: 20px;
+}
+.question-list{
+  padding: 0 10px;
+  .question-cell{
+    margin-bottom: 20px;
+  }
+  .input-title{
+
+  }
+  .number-input{
+    width: 100%;
+  }
+}
+
+

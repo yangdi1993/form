@@ -1,0 +1,56 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: left;
+}
+.ar-App {
+  direction: rtl;
+  unicode-bidi: isolate
+}
+.form-head{
+  text-align: center;
+  padding: 20px;
+}
+.question-list{
+  padding: 0 10px;
+  .question-cell{
+    margin-bottom: 20px;
+  }
+  .input-title{
+
+  }
+  .number-input{
+    width: 100%;
+  }
+}
+
+
+.width-full{
+  width: 100%;
+}
+
+.style-block{
+  display: block;
+  width: 100%;
+  white-space: normal;
+}
+
+
+
+::-webkit-scrollbar{
+  width: 0;/* 纵向滚动条*/
+  height: 0;/* 横向滚动条 */
+  background-color: #fff;
+}
+
+/*定义滚动条轨道 内阴影*/
+::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+  background-color: #fff;
+}
+
+/*定义滑块 内阴影*/
+::-webkit-scrollbar-thumb{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+  background-color: #D5D5D5;
+}
