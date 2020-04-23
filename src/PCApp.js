@@ -7,14 +7,13 @@ import { Toast } from 'antd-mobile';
 import submitForm from './submit'
 import getQuery from './query'
 
-
-import Forminput from './input/input'
-import NumberInput from './number/number'
-import TextareaInput from './textarea/textarea'
+import Forminput from './input/pcinput'
+import NumberInput from './number/pcnumber'
+import TextareaInput from './textarea/pctextarea'
 import FormSelect from './select/select'
-import FormRadio from './radio/radio'
-import FormCheckBox from './checkbox/checkbox'
-import FormTime from './date/time'
+import FormRadio from './radio/pcradio'
+import FormCheckBox from './checkbox/pccheckbox'
+import FormTime from './date/pctime'
 import FormUpload from './upload/upload'
 
 
@@ -24,7 +23,9 @@ class App extends React.Component {
     domain: '',
     Radiovalue: 1,
     checkedList: [],
-    formList: [],
+    formList: [
+      
+    ],
   };
   componentDidMount(){
     this.getInit()
